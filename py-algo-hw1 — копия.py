@@ -7,3 +7,4 @@ n = input("введите 3-х значное число\n")
 s = sum(map(int, n))
 p = 1
 for each in n:
+    p *= int(each)
